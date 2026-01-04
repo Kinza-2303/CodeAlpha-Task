@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kinza Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar">
+    <h2 class="logo">Portfolio</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="header-content">
+    <div class="text">
+      <h1>Kinza Qamar</h1>
+      <h3 class="typing">Frontend Developer</h3>
+
+      <div class="social">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="profile">
+      <img src="Kinza.png" alt="Kinza Qamar">
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a motivated Computer Science student with a strong interest in frontend
+    development. I enjoy creating responsive, user-friendly websites using
+    modern web technologies.
+  </p>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="skills" id="skills">
+  <h2>Skills</h2>
+
+  <div class="skill-box">
+    <div class="skill">SEO</div>
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Responsive Design</div>
+    <div class="skill">Git & GitHub</div>
+    <div class="skill">WordPress</div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-box">
+    <div class="project-card">
+      <h3>Task Master</h3>
+      <p>Responsive reminder with hover effects.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Image Gallery</h3>
+      <p>Responsive gallery with hover effects.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Calculator</h3>
+      <p>Basic calculator using JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Music Player</h3>
+      <p>JavaScript-based music player.</p>
+    </div>
+  </div>
+</section>
+
+<!-- THEME TOGGLE BUTTON -->
+<button id="theme-toggle">🌙 Dark Mode</button>
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+
+<div id="popup" class="popup">
+  <p>✅ Message received successfully!</p>
+</div>
+    
+  </form>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
